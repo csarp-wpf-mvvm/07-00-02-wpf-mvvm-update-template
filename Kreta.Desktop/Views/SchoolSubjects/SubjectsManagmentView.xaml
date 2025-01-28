@@ -64,11 +64,6 @@
         <ListBox Grid.Row="8"  Grid.ColumnSpan="2" Margin="2 2 2 2"
                  ItemsSource="{Binding Subjects}"
                  SelectedItem="{Binding SelectedSubject}">
-            <behaviors:Interaction.Triggers>
-                <behaviors:EventTrigger EventName="SelectionChanged">
-                    <behaviors:InvokeCommandAction Command="{Binding GetSchoolClassWhoNotStudySubjectCommand}" />
-                </behaviors:EventTrigger>
-            </behaviors:Interaction.Triggers>
         </ListBox>
         <Label Grid.Row="2" Grid.Column="2">Tantárgyat tanuló osztályok:</Label>
         <ListBox Grid.Row="3" Grid.RowSpan="3" Grid.Column="3"

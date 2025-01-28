@@ -61,12 +61,6 @@
                  ItemsSource="{Binding TypeOfEducations}"
                  SelectedItem="{Binding SelectedTypeOfEducation}"
         >
-            <behaviors:Interaction.Triggers>
-                <behaviors:EventTrigger EventName="SelectionChanged">
-                    <behaviors:InvokeCommandAction Command="{Binding GetByTypeOfEducationIdCommand}" 
-                                                   CommandParameter="{Binding SelectedTypeOfEducation.Id}"/>
-                </behaviors:EventTrigger>
-            </behaviors:Interaction.Triggers>
         </ListBox>
 
         <Label Grid.Row="2" Grid.Column="2">Szakmát tanuló osztályok</Label>

@@ -77,11 +77,6 @@
                  Margin="2 2 2 2"
                  ItemsSource="{Binding SchoolClasses}"
                  SelectedItem="{Binding SelectedSchoolClass}">
-            <behaviors:Interaction.Triggers>
-                <behaviors:EventTrigger EventName="SelectionChanged">
-                    <behaviors:InvokeCommandAction Command="{Binding GetSubjectNotStudiedInTheSchoolClassCommand}" />
-                </behaviors:EventTrigger>
-            </behaviors:Interaction.Triggers>
         </ListBox>
         <Label Margin="2 2 2 2" Grid.Row="2" Grid.Column="2">Az osztály által tanult tantárgyak:</Label>
         <ListBox Margin="2 2 2 2" Grid.Row="3" Grid.Column="3" Grid.RowSpan="4"
