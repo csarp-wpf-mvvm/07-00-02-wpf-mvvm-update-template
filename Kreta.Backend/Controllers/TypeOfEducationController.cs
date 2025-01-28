@@ -15,25 +15,6 @@ namespace Kreta.Backend.Controllers
         public TypeOfEducationController(TypeOfEducationAssambler? assambler, ITypeOfEducationRepo? repo) : base(assambler, repo)
         {
             _typeOfEducationRepo = repo;
-        }
-
-        [HttpGet("included")]
-        public async Task<IActionResult> SelectAllIncludedAsync()
-        {
-            List<TypeOfEducation>? typeOfEducations = new();
-            if (_typeOfEducationRepo != null && _assambler != null)
-            {
-                try
-                {
-                    typeOfEducations = await _typeOfEducationRepo.SelectAllIncluded().ToListAsync();
-                    return Ok(typeOfEducations.Select(entity => _assambler.ToDto(entity)));
-                }
-                catch (Exception e)
-                {
-
-                }
-            }
-            return BadRequest("Az adatok elérhetetlenek!");
-        }
+        }        
     }
 }

@@ -24,4 +24,8 @@
     <ProjectReference Include="..\Kreta.Shared\Kreta.Shared.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\Base\" />
+  </ItemGroup>
+
 </Project>

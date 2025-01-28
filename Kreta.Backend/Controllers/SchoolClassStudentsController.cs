@@ -17,25 +17,7 @@ namespace Kreta.Backend.Controllers
         public SchoolClassStudentsController(SchoolClassStudentsAssambler assambler, ISchoolClassStudentsRepo? repo) : base(assambler, repo)
         {
             _schoolClassStudentsRepo = repo;
-        }
-
-        [HttpGet("included")]
-        public async Task<IActionResult> SelectAllIncludedAsync()
-        {
-            if (_schoolClassStudentsRepo != null)
-            {
-                try
-                {
-                    List<SchoolClassStudents> result = await _schoolClassStudentsRepo.SelectAllIncluded().ToListAsync();
-                    return Ok(result.Select(achoolClassStudents => achoolClassStudents.ToDto()));
-                }
-                catch (Exception ex)
-                {
-                    await Console.Out.WriteLineAsync(ex.Message);
-                }
-            }
-            return BadRequest("Az adatok elérhetetlenek!");
-        }
+        }       
 
     }
 }

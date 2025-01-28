@@ -1,9 +1,9 @@
-﻿using Kreta.Shared.Models.Entites;
+﻿using Kreta.Backend.Repos.Base;
+using Kreta.Shared.Models.Entites;
 
 namespace Kreta.Backend.Repos
 {
-    public interface ITypeOfEducationRepo : IRepositoryBase<TypeOfEducation>
+    public interface ITypeOfEducationRepo : IBaseRepo<TypeOfEducation>
     {
-        public IQueryable<TypeOfEducation> SelectAllIncluded();
     }
 }

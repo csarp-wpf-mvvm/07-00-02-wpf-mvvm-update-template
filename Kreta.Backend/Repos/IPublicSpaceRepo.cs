@@ -1,8 +1,9 @@
-﻿using Kreta.Shared.Models.Entites;
+﻿using Kreta.Backend.Repos.Base;
+using Kreta.Shared.Models.Entites;
 
 namespace Kreta.Backend.Repos
 {
-    public interface IPublicSpaceRepo : IRepositoryBase<PublicSpace>
+    public interface IPublicSpaceRepo : IBaseRepo<PublicSpace>
     {
     }
 }

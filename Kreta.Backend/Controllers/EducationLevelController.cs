@@ -16,25 +16,5 @@ namespace Kreta.Backend.Controllers
         {
             _educationLevelRepo = repo;
         }
-
-
-        [HttpGet("included")]
-        public async Task<IActionResult> SelectAllIncludedAsync()
-        {
-            List<EducationLevel>? educationLevels = new();
-            if (_educationLevelRepo != null && _assambler is not null)
-            {
-                try
-                {
-                    educationLevels = await _educationLevelRepo.SelectAllIncluded().ToListAsync();
-                    return Ok(educationLevels.Select(entity => _assambler.ToDto(entity)));
-                }
-                catch (Exception ex)
-                {
-                    await Console.Out.WriteLineAsync(ex.Message);
-                }
-            }
-            return BadRequest("Az adatok elérhetetlenek!");
-        }
     }
 }

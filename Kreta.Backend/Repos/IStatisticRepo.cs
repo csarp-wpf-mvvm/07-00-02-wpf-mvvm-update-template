@@ -6,8 +6,5 @@ namespace Kreta.Backend.Repos
 {
     public interface IStatisticRepo
     {
-        public int GetNumberOfParents();
-        public GenderStatisticDto GetGenderNumberOfParent();
-        public List<NumberOfStudentByClass> GetNumberOfStudentByClasses();
     }
 }

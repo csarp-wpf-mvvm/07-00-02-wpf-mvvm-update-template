@@ -1,9 +1,9 @@
-﻿using Kreta.Shared.Models.Entites;
+﻿using Kreta.Backend.Repos.Base;
+using Kreta.Shared.Models.Entites;
 
 namespace Kreta.Backend.Repos
 {
-    public interface ISubjectRepo : IRepositoryBase<Subject>
+    public interface ISubjectRepo : IBaseRepo<Subject>
     {
-        public IQueryable<Subject> SelectSubjectsWithSchoolClasses();
     }
 }

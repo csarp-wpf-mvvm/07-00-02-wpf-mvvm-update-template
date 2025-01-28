@@ -1,4 +1,4 @@
-﻿using Kreta.Backend.Repos;
+﻿using Kreta.Backend.Repos.Base;
 using Kreta.Shared.Assamblers;
 using Kreta.Shared.Models.Entites;
 using Kreta.Shared.Models.Responses;
@@ -12,9 +12,9 @@ namespace Kreta.Backend.Controllers
         where TDto : class,new()
     {
         protected readonly Assambler<Tmodel,TDto>? _assambler;
-        protected readonly IRepositoryBase<Tmodel>? _repo;
+        protected readonly IBaseRepo<Tmodel>? _repo;
 
-        public BaseController(Assambler<Tmodel, TDto>? assambler, IRepositoryBase<Tmodel>? repo)
+        public BaseController(Assambler<Tmodel, TDto>? assambler, IBaseRepo<Tmodel>? repo)
         {
             _assambler = assambler;
             _repo = repo;
