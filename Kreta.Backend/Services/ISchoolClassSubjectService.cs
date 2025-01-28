@@ -1,5 +1,4 @@
-﻿using Kreta.Shared.Models;
-using Kreta.Shared.Responses;
+﻿using Kreta.Shared.Models.Entites;
 
 namespace Kreta.Backend.Services
 {

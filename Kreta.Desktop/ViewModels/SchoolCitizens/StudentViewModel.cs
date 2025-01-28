@@ -4,9 +4,9 @@ using Kreta.HttpService.Services;
 using Kreta.Desktop.ViewModels.Base;
 using System.Collections.ObjectModel;
 using System.Threading.Tasks;
-using Kreta.Shared.Models.SchoolCitizens;
 using System.Collections.Generic;
 using System;
+using Kreta.Shared.Models.Entites.SchoolCitizens;
 
 namespace Kreta.Desktop.ViewModels.SchoolCitizens
 {

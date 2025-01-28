@@ -1,6 +1,6 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using Kreta.Desktop.Repositories;
-using Kreta.Shared.Models.Account;
+using Kreta.Shared.Models.Entites.Account;
 using System.Threading;
 
 namespace Kreta.Controls.ViewModels

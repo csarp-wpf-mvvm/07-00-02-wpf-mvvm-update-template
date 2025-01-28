@@ -1,5 +1,6 @@
 ﻿using Kreta.Backend.Repos.Managers;
-using Kreta.Shared.Models;
+using Kreta.Shared.Models.Dtos.Statistics;
+using Kreta.Shared.Models.Entites;
 
 namespace Kreta.Backend.Repos
 {
@@ -18,9 +19,9 @@ namespace Kreta.Backend.Repos
                 .Count();
         }
 
-        public GenderNumberOfParent GetGenderNumberOfParent()
+        public GenderStatisticDto GetGenderNumberOfParent()
         {
-            GenderNumberOfParent number=new GenderNumberOfParent();
+            GenderStatisticDto number=new GenderStatisticDto();
             number.FemaleNumber=_repositoryManager
                 .ParentRepo
                 .FindAll()

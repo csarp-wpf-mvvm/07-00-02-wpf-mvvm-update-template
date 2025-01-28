@@ -1,5 +1,5 @@
 ﻿using Kreta.Backend.Repos.Managers;
-using Kreta.Shared.Models;
+using Kreta.Shared.Models.Entites;
 
 namespace Kreta.Backend.Services
 {

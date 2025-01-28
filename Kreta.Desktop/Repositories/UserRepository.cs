@@ -1,4 +1,4 @@
-﻿using Kreta.Shared.Models.Account;
+﻿using Kreta.Shared.Models.Entites.Account;
 using System;
 using System.Net;
 

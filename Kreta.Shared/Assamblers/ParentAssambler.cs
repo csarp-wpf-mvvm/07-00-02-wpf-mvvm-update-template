@@ -1,6 +1,6 @@
-﻿using Kreta.Shared.Dtos;
-using Kreta.Shared.Extensions;
-using Kreta.Shared.Models.SchoolCitizens;
+﻿using Kreta.Shared.Extensions;
+using Kreta.Shared.Models;
+using Kreta.Shared.Models.Entites.SchoolCitizens;
 
 namespace Kreta.Shared.Assamblers
 {

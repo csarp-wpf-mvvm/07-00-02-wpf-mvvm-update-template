@@ -1,7 +1,7 @@
 ﻿using Kreta.Backend.Repos;
 using Kreta.Shared.Assamblers;
-using Kreta.Shared.Models;
-using Kreta.Shared.Responses;
+using Kreta.Shared.Models.Entites;
+using Kreta.Shared.Models.Responses;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 

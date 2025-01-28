@@ -1,6 +1,6 @@
 ﻿using Kreta.Backend.Context;
-using Kreta.Shared.Models.SwitchTable;
-using Kreta.Shared.Responses;
+using Kreta.Shared.Models.Entites.SwitchTable;
+using Kreta.Shared.Models.Responses;
 using Microsoft.EntityFrameworkCore;
 
 namespace Kreta.Backend.Repos.SwitchTables

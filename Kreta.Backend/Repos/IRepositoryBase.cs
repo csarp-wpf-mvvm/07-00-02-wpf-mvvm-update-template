@@ -1,4 +1,4 @@
-﻿using Kreta.Shared.Responses;
+﻿using Kreta.Shared.Models.Responses;
 using System.Linq.Expressions;
 
 namespace Kreta.Backend.Repos

@@ -1,6 +1,6 @@
-﻿using Kreta.Shared.Dtos;
-using Kreta.Shared.Extensions;
+﻿using Kreta.Shared.Extensions;
 using Kreta.Shared.Models;
+using Kreta.Shared.Models.Entites;
 
 namespace Kreta.Shared.Assamblers
 {

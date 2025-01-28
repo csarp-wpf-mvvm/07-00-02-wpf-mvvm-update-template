@@ -1,11 +1,5 @@
-﻿using Kreta.Shared.Dtos;
-using Kreta.Shared.Models;
-using Kreta.Shared.Models.SchoolCitizens;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Kreta.Shared.Models;
+using Kreta.Shared.Models.Entites;
 
 namespace Kreta.Shared.Extensions
 {

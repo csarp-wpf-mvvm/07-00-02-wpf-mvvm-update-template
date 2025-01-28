@@ -1,6 +1,6 @@
 ﻿using Kreta.Shared.Assamblers;
-using Kreta.Shared.Models;
-using Kreta.Shared.Responses;
+using Kreta.Shared.Models.Entites;
+using Kreta.Shared.Models.Responses;
 using Newtonsoft.Json;
 using System.Diagnostics;
 using System.Net;

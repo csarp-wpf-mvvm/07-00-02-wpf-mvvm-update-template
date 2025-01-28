@@ -1,7 +1,7 @@
 ﻿using Kreta.Backend.Repos;
 using Kreta.Shared.Assamblers;
-using Kreta.Shared.Dtos;
-using Kreta.Shared.Models.SchoolCitizens;
+using Kreta.Shared.Models;
+using Kreta.Shared.Models.Entites.SchoolCitizens;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Kreta.Backend.Controllers

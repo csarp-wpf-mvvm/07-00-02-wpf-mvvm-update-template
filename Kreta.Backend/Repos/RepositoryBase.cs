@@ -1,5 +1,5 @@
-﻿using Kreta.Shared.Models;
-using Kreta.Shared.Responses;
+﻿using Kreta.Shared.Models.Entites;
+using Kreta.Shared.Models.Responses;
 using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
 

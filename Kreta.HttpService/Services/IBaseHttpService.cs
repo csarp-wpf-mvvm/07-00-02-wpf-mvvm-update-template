@@ -1,4 +1,4 @@
-﻿using Kreta.Shared.Responses;
+﻿using Kreta.Shared.Models.Responses;
 
 namespace Kreta.HttpService.Services
 {

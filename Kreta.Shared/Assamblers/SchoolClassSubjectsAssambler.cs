@@ -1,6 +1,6 @@
-﻿using Kreta.Shared.Dtos;
-using Kreta.Shared.Extensions;
-using Kreta.Shared.Models.SwitchTable;
+﻿using Kreta.Shared.Extensions;
+using Kreta.Shared.Models;
+using Kreta.Shared.Models.Entites.SwitchTable;
 
 namespace Kreta.Shared.Assamblers
 {
